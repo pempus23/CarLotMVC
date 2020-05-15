@@ -15,7 +15,7 @@ namespace CarLotMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Me application description page.";
 
             return View();
         }
