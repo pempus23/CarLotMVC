@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EF\AutoLotEntities.cs" />
     <Compile Include="EF\MyDataInitializer.cs" />
     <Compile Include="EF\IDbCommandInterceptor.cs" />
     <Compile Include="Interception\ConsoleWriterInterceptor.cs" />

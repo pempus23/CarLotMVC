@@ -48,7 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutoLotEntities.cs" />
     <Compile Include="Base\EntityBase.cs" />
     <Compile Include="CreditRisk.cs" />
     <Compile Include="Customer.cs" />
