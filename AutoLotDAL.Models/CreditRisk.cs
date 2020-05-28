@@ -1,6 +1,6 @@
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using AutoLotDAL.Models.Base;
-using System.ComponentModel.DataAnnotations;
 
 namespace AutoLotDAL.Models
 {
@@ -11,7 +11,7 @@ namespace AutoLotDAL.Models
         public string FirstName { get; set; }
 
         [StringLength(50)]
-        [Index("IDX_CreditRisk_Name", IsUnique = true, Order = 1)]    
+        [Index("IDX_CreditRisk_Name", IsUnique = true, Order = 1)]
         public string LastName { get; set; }
     }
 }
