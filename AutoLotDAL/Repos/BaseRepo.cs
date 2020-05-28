@@ -4,7 +4,6 @@ using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using AutoLotDAL.EF;
-using AutoLotDAL.Models;
 using AutoLotDAL.Models.Base;
 
 namespace AutoLotDAL.Repos
@@ -36,19 +35,27 @@ namespace AutoLotDAL.Repos
             {
                 return _db.SaveChanges();
             }
+#pragma warning disable CS0168 // Переменная "ex" объявлена, но ни разу не использована.
             catch(DbUpdateConcurrencyException ex)
+#pragma warning restore CS0168 // Переменная "ex" объявлена, но ни разу не использована.
             {
                 throw;
             }
+#pragma warning disable CS0168 // Переменная "ex" объявлена, но ни разу не использована.
             catch (DbUpdateException ex)
+#pragma warning restore CS0168 // Переменная "ex" объявлена, но ни разу не использована.
             {
                 throw;
             }
+#pragma warning disable CS0168 // Переменная "ex" объявлена, но ни разу не использована.
             catch (CommitFailedException ex)
+#pragma warning restore CS0168 // Переменная "ex" объявлена, но ни разу не использована.
             {
                 throw;
             }
+#pragma warning disable CS0168 // Переменная "ex" объявлена, но ни разу не использована.
             catch (Exception ex)
+#pragma warning restore CS0168 // Переменная "ex" объявлена, но ни разу не использована.
             {
                 throw;
             }

@@ -1,10 +1,11 @@
+using AutoLotDAL.Models;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.Infrastructure.Interception;
 
-namespace AutoLotDAL.Models
+namespace AutoLotDAL.EF
 {
 
     public partial class AutoLotEntities : DbContext

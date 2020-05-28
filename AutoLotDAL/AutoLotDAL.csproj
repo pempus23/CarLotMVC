@@ -51,6 +51,7 @@
     <Compile Include="EF\AutoLotEntities.cs" />
     <Compile Include="EF\MyDataInitializer.cs" />
     <Compile Include="EF\IDbCommandInterceptor.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Interception\ConsoleWriterInterceptor.cs" />
     <Compile Include="Migrations\202005031352386_Final.cs" />
     <Compile Include="Migrations\202005031352386_Final.Designer.cs">
