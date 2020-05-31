@@ -50,8 +50,6 @@
   <ItemGroup>
     <Compile Include="EF\AutoLotEntities.cs" />
     <Compile Include="EF\MyDataInitializer.cs" />
-    <Compile Include="EF\IDbCommandInterceptor.cs" />
-    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Interception\ConsoleWriterInterceptor.cs" />
     <Compile Include="Migrations\201707262145588_Initial.cs" />
     <Compile Include="Migrations\201707262145588_Initial.Designer.cs">
