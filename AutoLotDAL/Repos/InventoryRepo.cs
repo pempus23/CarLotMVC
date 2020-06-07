@@ -11,5 +11,9 @@ namespace AutoLotDAL.Repos
     {
         public override List<Inventory> GetAll() 
             => Context.Cars.OrderBy(x=>x.PetName).ToList();
+        public List<Inventory> GetNotAll()
+        {
+            return (Context.Cars.Where(c => c.Id == 5).ToList());
+        }
     }
 }
