@@ -14,6 +14,7 @@ namespace CarLotMVC
     {
         protected void Application_Start()
         {
+            //Does not reset the database
             //Database.SetInitializer(new MyDataInitializer());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
