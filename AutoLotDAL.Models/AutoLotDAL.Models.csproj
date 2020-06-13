@@ -55,6 +55,8 @@
     <Compile Include="MetaData\InventoryMetaData.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Weather\TemperatureInfo.cs" />
+    <Compile Include="Weather\WeatherResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
