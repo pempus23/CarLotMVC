@@ -1,5 +1,6 @@
 ﻿@using AutoLotDAL.Models
 @model IEnumerable<AutoLotDAL.Models.Inventory>
+
 @helper ShowInventory(Inventory item)
 {
     @item.Make<text>-</text>
@@ -40,10 +41,14 @@
         <th>
             @Html.DisplayNameFor(model => model.PetName)
         </th>
+        <th>
+            @Html.DisplayNameFor(Model => Model.Id)
+        </th>
         <th></th>
     </tr>
     @foreach (var item in SortCars(Model.ToList()))
     {
+
         @*@ShowInventory(item)*@
         @Html.DisplayFor(modelItem => item, "InventoryList")
         @*<tr>
