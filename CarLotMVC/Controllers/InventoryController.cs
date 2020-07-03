@@ -1,14 +1,15 @@
-﻿using System;
+﻿using AutoLotDAL.Models;
+using AutoLotDAL.Repos;
+using System;
 using System.Data.Entity.Infrastructure;
 using System.Net;
 using System.Web.Mvc;
-using AutoLotDAL.Models;
-using AutoLotDAL.Repos;
 
 namespace CarLotMVC.Controllers
 {
     public class InventoryController : Controller
     {
+
         private readonly InventoryRepo _repo = new InventoryRepo();
 
         // GET: Inventory

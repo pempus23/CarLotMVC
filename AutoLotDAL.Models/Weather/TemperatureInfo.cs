@@ -10,5 +10,6 @@ namespace AutoLotDAL.Models.Weather
     {
         public float Temp { get; set; }
         public float Feels_like { get; set; }
+        public float Humidity { get; set; }
     }
 }
