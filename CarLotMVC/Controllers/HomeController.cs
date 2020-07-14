@@ -27,7 +27,7 @@ namespace CarLotMVC.Controllers
             }
 
             WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
-            return View(model: weatherResponse);
+            return View(weatherResponse);
         }
 
         public ActionResult About()
